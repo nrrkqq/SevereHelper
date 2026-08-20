@@ -20,7 +20,7 @@
 
 Drawing.RegisterFont("Source-Sans-Pro", 96, http.get({ url = "https://raw.githubusercontent.com/Jimenth/Misanthropy/refs/heads/main/Fonts/Source-Sans-Pro.ttf" }))
 
-local RawOffsets = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jimenth/goop/refs/heads/main/Resources/Offsets.lua"))()
+local RawOffsets = loadstring(game:HttpGet("https://raw.githubusercontent.com/nrrkqq/SevereHelper/refs/heads/main/Offsets.lua"))()
 task.wait(2)
 assert(RawOffsets, "Module: failed to load offsets from Offsets.lua")
 
